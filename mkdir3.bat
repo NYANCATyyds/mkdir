@@ -7,12 +7,12 @@ set "foldname="
 set /p "folder=please write folder: "
 
 if "%folder%"=="" (
-    echo 输入不能为空，请重新输入！
+    echo please write cannot empty
     goto input
 )
 
 if exist "%folder%" (
-    echo 文件夹已存在："%foldname%"
+    echo folder has："%foldname%"
     goto end
 )
 
